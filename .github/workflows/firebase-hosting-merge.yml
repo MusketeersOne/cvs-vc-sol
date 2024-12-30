@@ -5,10 +5,10 @@ name: Deploy to Firebase Hosting on merge
 on:
   push:
     branches:
-        - deploy-firebase
+        - main
   pull_request:
     branches:
-        - deploy-firebase
+        - main
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
