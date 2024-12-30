@@ -5,4 +5,13 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   base: "/cvs-vc-sol",
   plugins: [react()],
+  build: {
+    rollupOptions: {
+      output: {
+        entryFileNames: 'main.js', // Disable hashed filenames for JS entry files
+        chunkFileNames: '[name].js', // Optional: disable hash for chunks
+        assetFileNames: '[name][extname]' // Optional: disable hash for assets
+      }
+    }
+  }
 })
