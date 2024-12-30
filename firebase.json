@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "cvs-vc-sol",
     "source": ".",
     "ignore": [
       "firebase.json",
