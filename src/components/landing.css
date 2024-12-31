@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .landing-page {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .navigation a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .navigation a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 50px 20px;
+    background-color: #e9ecef;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Features Section */
+  .features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+  
+  .feature-item {
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .feature-item img {
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  
+  .feature-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-item p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* FAQ Section */
+  .faq {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .faq h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .faq-item h3 {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-bottom: 5px;
+  }
+  
+  .faq-item p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    padding: 20px;
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .footer nav a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer nav a:hover {
+    text-decoration: underline;
+  }
+  

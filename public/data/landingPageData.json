@@ -1,0 +1,58 @@
+{
+    "logo": "https://www.cvs.com/content/dam/enterprise/cvsretail/minuteclinic/virtual-care/txtimgblk-herovcDP.jpg",
+    "navigation": [
+      { "label": "Home", "link": "/" },
+      { "label": "About", "link": "/about" },
+      { "label": "Services", "link": "/services" },
+      { "label": "Contact", "link": "/contact" }
+    ],
+    "hero": {
+      "title": "Welcome to Our Virtual Care Services",
+      "subtitle": "Providing quality care from the comfort of your home.",
+      "ctaText": "Get Started",
+      "ctaLink": "/get-started"
+    },
+    "features": [
+      {
+        "icon": "https://www.cvs.com/content/dam/enterprise/cvsretail/minuteclinic/virtual-care/cards1-convenience.svg",
+        "title": "Convenient Care",
+        "description": "Access medical services anytime, anywhere."
+      },
+      {
+        "icon": "https://www.cvs.com/content/dam/enterprise/cvsretail/minuteclinic/virtual-care/cards2-qualityservice.svg",
+        "title": "Trusted Providers",
+        "description": "Connect with licensed healthcare professionals."
+      },
+      {
+        "icon": "https://www.cvs.com/content/dam/enterprise/cvsretail/minuteclinic/virtual-care/cards3-affordablecare.svg",
+        "title": "Affordable Options",
+        "description": "Cost-effective solutions for your healthcare needs."
+      }
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": [
+        {
+          "question": "What services do you offer?",
+          "answer": "We offer virtual consultations, prescription refills, and more."
+        },
+        {
+          "question": "How do I schedule an appointment?",
+          "answer": "Click on 'Get Started' to book your appointment online."
+        },
+        {
+          "question": "Is my information secure?",
+          "answer": "Yes, we use industry-standard encryption to protect your data."
+        }
+      ]
+    },
+    "footer": {
+      "text": "© 2024 Virtual Care Services. All rights reserved.",
+      "links": [
+        { "label": "Privacy Policy", "url": "/privacy-policy" },
+        { "label": "Terms of Service", "url": "/terms-of-service" },
+        { "label": "Contact Us", "url": "/contact" }
+      ]
+    }
+  }
+  
