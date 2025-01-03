@@ -33,25 +33,27 @@ function LangdingPage() {
   return (
     <div className="landing-page">
       {/* Header Section */}
-      <header className="header">
-        <div className="logo">
-          <img src={data.logo} alt="Logo" />
-        </div>
+      {/* <header className="header">
         <nav className="navigation">
           {data.navigation.map((item, index) => (
             <a key={index} href={item.link}>{item.label}</a>
           ))}
         </nav>
-      </header>
+      </header> */}
 
       {/* Main Section */}
       <main className="main-content">
         <section className="hero">
-          <h1>{data.hero.title}</h1>
-          <p>{data.hero.subtitle}</p>
-          <button onClick={() => window.location.href = data.hero.ctaLink}>
-            {data.hero.ctaText}
-          </button>
+          <div>
+            <h1>{data.hero.title}</h1>
+            <p>{data.hero.subtitle}</p>
+            <button onClick={() => window.location.href = data.hero.ctaLink}>
+              {data.hero.ctaText}
+            </button>
+          </div>
+          <div className="logo">
+            <img src={data.logo} alt="Logo" />
+          </div>
         </section>
 
         {/* Features Section */}
